@@ -12,21 +12,21 @@ const LandingPage = () => {
   return (
     <Box
       sx={{
-        height: "100vh",
+        // height: "100vh",
         m: 0,
         p: 0,
         width: "100%",
-        backgroundColor: "red",
+        // backgroundColor: "red",
       }}
     >
       {/* import Here Your Sections */}
-      <DeveloperSection />
-      <CloudHosting />
-      <DesignDevelopment />
-      <OurServices />
-      <OurAwesomeTeam />
+      {/* <DeveloperSection /> */}
+      {/* <CloudHosting /> */}
+      {/* <DesignDevelopment /> */}
+      {/* <OurServices /> */}
+      {/* <OurAwesomeTeam /> */}
       <PricingPlans />
-      <WhatUserSaying />
+      {/* <WhatUserSaying /> */}
     </Box>
   );
 };
